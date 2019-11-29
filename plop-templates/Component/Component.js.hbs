@@ -1,20 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './{{pascalCase name}}.module.css';
+    import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './{{pascalCase name}}.module.css'
 
 const {{pascalCase name}} = props => {
-  return (
-    <div className={styles.root}>
-    </div>
-  );
-};
+  if (props.name) {
+    return <h1>Hello, {props.name}!</h1>
+  } else {
+    return <span>Hey, stranger</span>
+  }
+}
 
-{{pascalCase name}}.defaultProps = {
+{{pascalCase name }}.defaultProps = {}
 
-};
+{{pascalCase name}}.propTypes = {}
 
-{{pascalCase name}}.propTypes = {
-
-};
-
-export default {{pascalCase name}};
+export default {{pascalCase name}}
