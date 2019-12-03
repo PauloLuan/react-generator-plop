@@ -12,7 +12,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate": "plop"
+    "generate": "plop",
+    "format": "find . \( -path ./node_modules \) -prune -o -name '*.js' -or -name '*.json' | xargs prettier-standard --write"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -24,6 +25,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "plop": "^2.5.3"
+    "plop": "^2.5.3",
+    "prettier-standard": "^16.1.0"
   }
 }
