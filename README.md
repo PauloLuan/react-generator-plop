@@ -1,11 +1,13 @@
 # React Starter CLI
+
 This project provides a cli to generate boilerplate react code for components, pages, hooks, and services.
 
 ## Demo
+
 ![plop-demo-all](https://user-images.githubusercontent.com/5760059/55975017-a2cc1900-5c4e-11e9-961b-4bd7cdae74da.gif)
 
-
 ## API
+
 ```bash
 # Generate a single-use component
 npm run generate page <name>
@@ -27,7 +29,6 @@ npm run generate service <name>
 # Generate a service called petApi
 npm run generate service petApi
 ```
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
